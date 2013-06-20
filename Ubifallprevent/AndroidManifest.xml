@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.weilin.fall"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.weilin.fallsurvey.GlobalsApp"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.weilin.fallsurvey.LoginActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_login_activity" >
+            <intent-filter>
+                <action android:name="com.weilin.fallsurvey.LoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.weilin.fallsurvey.SurveyActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_survey_activity" >
+        </activity>
+        <activity
+            android:name="com.weilin.fallsurvey.creator.SurveyEditorActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_survey_creator_activity" >
+        </activity>
+        <activity
+            android:name="com.weilin.fall.ChronometerExampleActivity"
+            android:label="@string/title_activity_chronometer_example" >
+            <intent-filter>
+                <action android:name="com.weilin.fall.ChronometerExampleActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.weilin.fall.FallPrevention"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.weilin.fall.IntrodutionTimeUpGo"
+            android:label="@string/title_activity_introdution_time_up_go" >
+            <intent-filter>
+                <action android:name="com.weilin.fall.IntrodutionTimeUpGo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.weilin.fall.NameAge"
+            android:label="@string/title_activity_name_age" >
+            <intent-filter>
+                <action android:name="com.weilin.fall.NageAge" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.weilin.fall.History"
+            android:label="@string/title_activity_history" >
+            <intent-filter>
+                <action android:name="com.weilin.fall.History" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.weilin.fall.AmbientDisplay"
+            android:label="@string/title_activity_ambient_display" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.weilin.fall.FallPrevention" />
+
+            <intent-filter>
+                <action android:name="com.weilin.fall.AmbientDisplay" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.weilin.fall.Lightsensor"
+            android:label="@string/title_activity_lightsensor" >
+            
+            
+             <intent-filter>
+                <action android:name="com.weilin.fall.Lightsensor" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/move_left" android:title="Move left"></item>
+	<item android:id="@+id/move_right" android:title="Move right"></item>
+	<item android:id="@+id/add_question" android:title="Add question"></item>
+	<item android:id="@+id/delete_question" android:title="Delete question"></item>
+</menu>

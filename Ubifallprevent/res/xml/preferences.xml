@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preference xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+android:summary=”Select a ringtone”
+android:title=”p”
+android:key=”0” />
+</Preference>

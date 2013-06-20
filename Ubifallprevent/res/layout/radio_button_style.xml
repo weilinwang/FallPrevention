@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PollRadioButton"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/button_height"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+     android:background="@drawable/radio"
+    android:paddingLeft="35dp">
+
+</RadioButton>

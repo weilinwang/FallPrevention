@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="button_height">60dip</dimen>
+    <dimen name="title_text_size">40dp</dimen>
+    <dimen name="login_text">25sp</dimen>
+    <dimen name="login_element_width">300dip</dimen>
+    <dimen name="bottom_padding">65dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>
