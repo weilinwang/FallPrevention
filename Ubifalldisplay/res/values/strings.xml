@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Smart frame for fall</string>
+    <string name="title_activity_main">FallDisplay</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_fallweb">Fallweb</string>
+    <string name="title_activity_social">Social</string>
+    <string name="title_activity_openother">Openother</string>
+
+</resources>
